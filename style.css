@@ -1,0 +1,148 @@
+*{
+    overflow: auto;
+}
+body{
+    background-color: #8ba1bb;
+    font-family: Arial;
+}
+
+.s1{
+    color: white;
+    display:inline
+
+}
+.ctn1{
+    text-align: center;
+}
+.contenu{
+    background: white;
+    margin: 0px 10%80px 10%;
+    padding: 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 3PX 5px grey;
+}
+
+h1{
+    text-align: center;
+}
+
+.s2{
+    text-align: center;
+    background-color:black;
+    display: inline-block;
+    color: white;
+}
+
+.contenu1{
+    max-width: 400px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 12px;
+}
+
+.centre{
+    text-align: center;
+    display: block;
+    margin-bottom: -20px;
+    margin-top:0px;
+
+}
+.central{
+    text-align: center;
+    width: 100%;
+    display:inline-block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+
+.s2{
+    text-align: center;
+    background-color:black;
+    display: inline-block;
+    color: white;
+    padding: 8px 18px;
+    margin-bottom:0px;
+    font-weight:bold;
+    font-size: 16px;
+}
+
+.separateur{
+    width: 100px;
+    height: 1px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    position: absolute; bottom: 4px; width: 100%; color: rgb(36, 24, 24);
+    background-color:#6C829DB0 ; height: 80px;
+}
+.inf{
+    position: relative;
+}
+.info td{
+    text-align: center;
+    font-size: 12px;
+    vertical-align: top;
+}
+.info th{
+    vertical-align: bottom;
+    padding: 4px;
+
+}
+.colonne1{
+    width: 45%;
+    display: inline-block;
+    margin: top;
+    margin-right: 10%;
+
+}
+.colonne2{
+    width: 45%;
+    display: inline-block;
+    float: right;
+    display: 50%;
+    margin:top;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom:3px solid #6C829D;
+    padding-bottom: 5px;
+    
+}
+.ul p{
+    text-align: center;
+    border:1px solid lightgrey;
+    font-size: 14px;
+    padding:8px 0;
+    margin-top:4px;
+    margin-bottom: 0px;
+}
+.nutrition .numero{
+    background-color:#6C829D ;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight:bold;
+    padding-top:4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 4px;
+    margin: 0px;
+}
+.preparation{
+    vertical-align: top;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.nutrition tr{
+    height: 30px;
+}
